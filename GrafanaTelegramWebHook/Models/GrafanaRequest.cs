@@ -21,11 +21,10 @@ namespace GrafanaTelegramWebHook.Models
     {
         public string Metric { get; set; }
         public Tags Tags { get; set; }
-        public long Value { get; set; }
+        public object Value { get; set; }
     }
 
     public class Tags
     {
     }
-
 }
