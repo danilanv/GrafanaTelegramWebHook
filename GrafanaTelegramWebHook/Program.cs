@@ -13,6 +13,8 @@ namespace GrafanaTelegramWebHook
     {
         public static void Main(string[] args)
         {
+            Console.Title = "GRAFANA TELEGRAM WEBHOOK";
+            Console.WriteLine("Grafana Telegram Webhook adds proxy support to Grafana's telegram alerting channel.");
             CreateHostBuilder(args).Build().Run();
         }
 

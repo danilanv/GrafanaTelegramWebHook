@@ -2,7 +2,7 @@
 {
     public class TelegramMessage
     {
-        public int chat_id { get; set; }
+        public long chat_id { get; set; }
 
         public string text { get; set; }
 

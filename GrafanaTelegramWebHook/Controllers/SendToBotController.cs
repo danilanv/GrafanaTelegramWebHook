@@ -13,7 +13,7 @@ namespace GrafanaTelegramWebHook.Controllers
     {
         private readonly string _botBaseUrl = "https://api.telegram.org/bot";
         private readonly Proxy _proxy;
-        private readonly int _chatId;
+        private readonly long _chatId;
 
         private FlurlClient _client;
 

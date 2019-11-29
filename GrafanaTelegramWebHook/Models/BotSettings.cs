@@ -2,7 +2,7 @@
 {
     public class BotSettings
     {
-        public int ChatId { get; set; } 
+        public long ChatId { get; set; } 
     
         public string ApiKey { get; set; } 
     }
