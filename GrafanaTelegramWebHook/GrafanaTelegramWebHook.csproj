@@ -6,6 +6,7 @@
     <Company />
     <Product>Grafana Telegram WebHook</Product>
     <Description>Grafana Telegram Webhook adds proxy support to Grafana's telegram alerting channel.</Description>
+    <ApplicationIcon>telegram.ico</ApplicationIcon>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
